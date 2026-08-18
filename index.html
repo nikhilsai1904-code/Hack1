@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReelTech AI - Smart Learning Recommendations</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <span>ReelTech AI</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#problem">Problem</a></li>
+                <li><a href="#solution">Solution</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Transform Your <span class="neon-text">Scroll Time</span> into <span class="neon-text">Learn Time</span>
+            </h1>
+            <p class="hero-subtitle">
+                AI-powered recommendation agent that analyzes your Reels and suggests personalized tech learning content
+            </p>
+            <div class="hero-buttons">
+                <a href="#demo" class="btn btn-primary">
+                    <i class="fas fa-play"></i> Try Demo
+                </a>
+                <a href="#solution" class="btn btn-secondary">
+                    <i class="fas fa-info-circle"></i> Learn More
+                </a>
+            </div>
+        </div>
+        <div class="hero-animation">
+            <div class="floating-icon"><i class="fas fa-mobile-alt"></i></div>
+            <div class="floating-icon"><i class="fas fa-robot"></i></div>
+            <div class="floating-icon"><i class="fas fa-lightbulb"></i></div>
+            <div class="floating-icon"><i class="fas fa-graduation-cap"></i></div>
+        </div>
+    </section>
+
+    <!-- Problem Statement Section -->
+    <section id="problem" class="problem-section">
+        <div class="container">
+            <h2 class="section-title">The Problem</h2>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Time Wasted</h3>
+                    <p>Students spend 3+ hours daily scrolling through short-form content without learning anything valuable.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Content Overload</h3>
+                    <p>Too much unfiltered content makes it hard to find quality educational material relevant to their interests.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Skill Gap</h3>
+                    <p>Students miss opportunities to learn tech skills that could boost their careers and academic performance.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>No Personalization</h3>
+                    <p>Generic algorithms don't understand individual learning goals or technical interests.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="solution-section">
+        <div class="container">
+            <h2 class="section-title">Our Solution</h2>
+            <div class="solution-content">
+                <div class="solution-text">
+                    <h3>AI-Powered Smart Recommendations</h3>
+                    <p>
+                        ReelTech AI analyzes the content you're currently watching and instantly recommends 
+                        high-quality tech learning Reels tailored to your interests and skill level.
+                    </p>
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Real-time content analysis using NLP</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Personalized learning path suggestions</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Difficulty level matching</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Confidence-scored recommendations</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Category-based organization</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="solution-visual">
+                    <div class="process-flow">
+                        <div class="process-step">
+                            <i class="fas fa-mobile-alt"></i>
+                            <p>Current Reel</p>
+                        </div>
+                        <div class="process-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="process-step">
+                            <i class="fas fa-brain"></i>
+                            <p>AI Analysis</p>
+                        </div>
+                        <div class="process-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="process-step">
+                            <i class="fas fa-lightbulb"></i>
+                            <p>Smart Recommendation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="demo-section">
+        <div class="container">
+            <h2 class="section-title">Try It Out</h2>
+            <div class="demo-container">
+                <div class="demo-input-section">
+                    <h3><i class="fas fa-mobile-alt"></i> Current Reel</h3>
+                    <textarea id="currentReel" placeholder="Paste or describe the Reel you're watching...
+Example: 'Python tutorial on list comprehension - creating lists in one line using for loops'"></textarea>
+                    <button id="analyzeBtn" class="btn btn-primary">
+                        <i class="fas fa-magic"></i> Analyze & Recommend
+                    </button>
+                </div>
+
+                <div class="demo-output-section">
+                    <h3><i class="fas fa-robot"></i> AI Recommendation</h3>
+                    <div id="loading" class="loading hidden">
+                        <div class="spinner"></div>
+                        <p>Analyzing content...</p>
+                    </div>
+                    <div id="result" class="result-card hidden">
+                        <div class="result-grid">
+                            <div class="result-item">
+                                <label>Interest Detected</label>
+                                <div class="result-value" id="interest">-</div>
+                            </div>
+                            <div class="result-item">
+                                <label>Recommended Tech Reel</label>
+                                <div class="result-value" id="recommendation">-</div>
+                            </div>
+                            <div class="result-item">
+                                <label>Category</label>
+                                <div class="result-value" id="category">-</div>
+                            </div>
+                            <div class="result-item">
+                                <label>Difficulty</label>
+                                <div class="result-value" id="difficulty">-</div>
+                            </div>
+                            <div class="result-item">
+                                <label>Confidence</label>
+                                <div class="result-value" id="confidence">-</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <h2 class="section-title">Meet The Team</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Team Member 1</h3>
+                    <p class="team-role">AI/ML Developer</p>
+                    <p class="team-desc">NLP & Recommendation Systems</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Team Member 2</h3>
+                    <p class="team-role">Frontend Developer</p>
+                    <p class="team-desc">UI/UX & Web Development</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Team Member 3</h3>
+                    <p class="team-role">Backend Developer</p>
+                    <p class="team-desc">API & Database Management</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Team Member 4</h3>
+                    <p class="team-role">Project Manager</p>
+                    <p class="team-desc">Strategy & Coordination</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>Have questions or feedback? We'd love to hear from you!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>team@reeltechai.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Hackathon 2026</span>
+                        </div>
+                        <div class="contact-social">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fas fa-brain"></i>
+                        <span>ReelTech AI</span>
+                    </div>
+                    <p>Transforming scroll time into learn time with AI-powered recommendations.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#problem">Problem</a></li>
+                        <li><a href="#solution">Solution</a></li>
+                        <li><a href="#demo">Demo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ReelTech AI. Built for Hackathon 2026.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
